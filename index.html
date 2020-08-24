@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cokieresh</title>
     <style>
+        * {
+  box-sizing: border-box;
+}
+       .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
     </style>
     
@@ -12,36 +27,42 @@
 <body>
     <header>
         
-     <h1>cokieresh website</h1>
+     <h1 style="text-align:center">cokieresh website</h1>
 
     </header>
 
     <main>
        <article>
+ <div class="row">
+    <div class="column">
         <section>
-            <img src="https://www.cookingclassy.com/wp-content/uploads/2013/05/nutella-stuffed-chocolate-chocolate-chip-cookies+srgb..jpg" alt="nutella cookie">
+            <img src="https://www.cookingclassy.com/wp-content/uploads/2013/05/nutella-stuffed-chocolate-chocolate-chip-cookies+srgb..jpg" alt="nutella cookie" style="width:100%">
 
-            <pr>nutella cookies</pr>
+            <p style="text-align:center"><strong>nutella cookies</strong></p>
 
         </section>
-
+    </div>
+    <div class="column">
         <section>
-            <img src="https://m.media-amazon.com/images/S/abs-image-upload-na/8/AmazonStores/ATVPDKIKX0DER/b8ef2c6cdad83a418a866b12941d4dd6.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg" alt="cookies classic">
+            <img src="https://m.media-amazon.com/images/S/abs-image-upload-na/8/AmazonStores/ATVPDKIKX0DER/b8ef2c6cdad83a418a866b12941d4dd6.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg" alt="cookies classic" style="width:150%">
 
-            <pr>classic cookies</pr>
+            <p style="text-align:center"> <strong>classic cookies</strong> </p>
         </section>
-
+    </div>
+     <div class="column">
         <section>
-            <img src="https://cleobuttera.com/wp-content/uploads/2015/09/pile-white-wl.jpg" alt="cookies lotus">
+            <img src="https://cleobuttera.com/wp-content/uploads/2015/09/pile-white-wl.jpg" alt="cookies lotus" style="width:100%">
 
-            <pr> <strong>lotus cookies</strong> </pr>
+            <p style="text-align:center"> <strong> lotus cookies</strong> </p>
         </section>
+    </div>
+ </div>
        </article> 
 
     </main>
 
     <footer>
-
+      <p style="text-align:center">  <a href="https://www.w3schools.com/" target="_blank">Click here to bay!</a> </p>
     </footer>
     
 </body>
