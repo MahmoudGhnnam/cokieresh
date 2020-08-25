@@ -1,0 +1,77 @@
+img {
+    display: inline;
+    width:100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+         .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    clear: both;
+    display: table;
+  }
+
+  p{
+    text-align:center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 21px;
+    letter-spacing: 1.8px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-align:center;
+  }
+
+  h1{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.8px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-align:center;
+    color: brown;
+    
+  }
+  #Font {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 21px;
+    letter-spacing: 1.8px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    }
+    a {font-size: 50px}
+
+    .centerlogo {
+        top: 5%;
+        left: 40%;
+        margin-left: -100px; /* margin is -0.5 * dimension */
+        margin-top: 60px;
+    }
+    .centerp1 {
+        margin-left: -100px; /* margin is -0.5 * dimension */
+        margin-top: 200px;
+    }
+    .centerp2 {
+        margin-left: -100px; /* margin is -0.5 * dimension */
+        margin-top: 200px;
+    }
