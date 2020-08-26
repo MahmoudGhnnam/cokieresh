@@ -20,8 +20,6 @@ alert("hello " + yourname + " welcome to our site");
 
 var r = confirm("Press ok");
 
-alert("clik on clik here to pay to change color page :)");
-
 function changeBg() {
     newCol = prompt("What colour would you like the page's background to be?");
     document.body.style.background=newCol;
