@@ -13,40 +13,39 @@ function greeting() {
 }
 document.write('<h3>' + greeting() + '</h3>');
 
-function showOrder () {
+function showOrder() {
     var userInput = prompt('what would you like to order nutella cookies or classic cookies or lotus cookies');
     while (userInput !== "nutella cookies" && userInput !== "classic cookies" && userInput !== "lotus cookies") {
         userInput = prompt('you should choose from thi three:) nutella cookies or classic cookies or lotus cookies');
     }
-   
+
     var userOrder = "";
     var numberOfImage = prompt("how many cookies do you want to buy");
-    
+
     for (var count = 0; count < numberOfImage; count++) {
         if (userInput == "nutella cookies") {
-            
+
             userOrder = userOrder + "<img src='img/nutella.jpg' alt=''>";
             console.log(userOrder);
         }
         else if (userInput == "classic cookies") {
-           
+
             userOrder = userOrder + "<img src='img/classic.jpg' alt=''>";
             console.log(userOrder);
         }
         else if (userInput == "lotus cookies") {
-            
+
             userOrder = userOrder + "<img src='img/lotus.jpg' alt=''>";
             console.log(userOrder);
         }
     }
-    //output
     return userOrder;
 }
 document.write('<h3>' + showOrder() + '</h3>');
 
 
 
-var yourname = prompt("what's you name plz?")
+var yourname = prompt("what's your name plz?")
 
 alert("hello " + yourname + " welcome to our site");
 
